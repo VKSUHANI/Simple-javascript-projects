@@ -1,4 +1,5 @@
-
+ //You can change your choice here
+ const myChoice='paper'
 const computerChoicefn=() =>{
     let random=Math.random()*3;
     random=Math.floor(random)
@@ -15,8 +16,8 @@ const computerChoicefn=() =>{
     }
   }
   let computerChoice=computerChoicefn();
-  //console.log(computerChoice,myChoice)
   function winner(computerChoice,myChoice){
+    console.log(`Computer choice is ${computerChoice}`)
     if(myChoice===computerChoice){
       console.log('It\'s a tie')
     }
@@ -32,6 +33,6 @@ const computerChoicefn=() =>{
   }
   }
   
-  const myChoice='paper'
+ 
   winner(computerChoice,myChoice) 
   
