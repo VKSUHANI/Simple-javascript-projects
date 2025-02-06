@@ -1,3 +1,5 @@
+//Whale Talk" is a fun exercise in Codecademy's JavaScript course where you translate a given string into "whale talk."
+//In whale talk, you only use vowels and repeat u,e vowels twice.
 //uueeieeauuee
 const input = "turpentine and turtles";
 const vowels=['a','e','i','o','u']
